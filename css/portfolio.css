@@ -1,0 +1,394 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  height: 400%;
+  width: 100%;
+}
+
+#pageContainer {
+  height: 400%;
+  width: 100%;
+}
+
+.container,
+.container-fluid {
+  height: 100%;
+}
+
+.grid-border{
+  border: 1px green solid;
+}
+
+body,
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/*navbar*/
+.navbar-default{
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+  border: 0px;
+}
+
+.nav-link{
+  font-size: 1.5em;
+  font-weight: bold;
+  transition: font-size 0.5s ease;
+}
+
+.underlined {
+   border-bottom: 2px #337ab7 solid;
+}
+
+.navbar-collapse.collapse.in,
+button.navbar-toggle.collapsed,
+button.navbar-toggle{
+  border: none;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #777777;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+button.navbar-toggle.collapsed:hover,
+button.navbar-toggle.collapsed:focus,
+.navbar-right > li > a:hover,
+.navbar-right > li > a:focus {
+  background-color: transparent;
+}
+
+/*===== Home =====*/
+.bg-overlay-home > .container {
+  height: 100%;
+}
+
+.bg-overlay-home > .container > .row {
+  margin-top: 30%;
+}
+
+#title > h3 {
+  color: #FFFFE0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-overlay-home {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+  width: 100%;
+background: -webkit-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,.65) 100%);
+background: -moz-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+background: -o-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+background: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+}
+
+.content-home {
+  background: url('http://i1155.photobucket.com/albums/p542/thirteenten/main_background_zpscv85cmx2.jpg') center center no-repeat;
+  background-size: cover;
+  height: 25%;
+  width: 100%;
+}
+/*===== END Home =====*/
+
+/*===== About =====*/
+
+.content-about > .container > .row {
+  position: relative;
+  margin-top: 10%;
+}
+
+.about > h3 {
+  color: #FFFFE0;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.about-img {
+  position: relative;
+  height: 225px;
+  width: 225px;
+  margin: 0px auto;
+}
+
+.content-about{
+  height: 25%;
+  width: 100%;
+  background: black;
+}
+
+.content-about > h4{
+  padding-top: 25%;
+}
+/*===== END About =====*/
+
+
+/*===== Portfolio =====*/
+
+.p-container > .row {
+  height: 20%;
+  margin-top: 5%;
+}
+
+.p-container > .row > div {
+  height: 100%;
+}
+
+.content-portfolio > .p-container {
+  height: 100%;
+}
+
+#portTitle {
+  top: 0;
+  bottom: 0;
+  
+}
+
+#portTitle > h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: #666666;
+}
+
+#portTitle > p {
+  font-size: 13.5px;
+  text-align: center;
+  color: #666666;
+}
+
+.p-container > .row > .col-sm-6 {
+  margin-top: 15px;
+}
+
+/*=== For Empty Spots ===*/
+
+.empty {
+  border: 5px dashed #b3b3b3;
+  height: 100%;
+  text-align: center;
+}
+
+.empty > h4 {
+  color: #b3b3b3;
+}
+
+/*=== END Empty Spots ===*/
+
+.portfolio-img {
+  position: relative;
+  height: 100%;
+  box-shadow: 5px 5px 20px #999999
+}
+
+.filler,
+.filler > img {
+  height: 100%;
+  width: 100%;
+}
+
+.description {
+  position: absolute;
+  display: none;
+  bottom: 0;
+  height: 50%;
+  width: 100%;
+  background-color: rgba(51,51,51,.75);
+  text-decoration: none;
+}
+
+.description > h5,
+.description > p {
+  color: #f2f2f2;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.description > h5 {
+  font-size: 1.1em;
+}
+
+.description > p {
+  font-size: .7em;
+  margin-top: -5px;
+}
+
+.filler:hover + .description,
+.description:hover {
+  display: block;
+}
+
+.content-portfolio{
+  height: 25%;
+  width: 100%;
+  background: rgb(216,216,216);
+}
+
+/*============== Contact =============*/
+.bg-overlay-contact {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: -moz-linear-gradient(top, rgba(216,216,216,1) 0%, rgba(69,72,77,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(216,216,216,1) 0%,rgba(69,72,77,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(216,216,216,1) 0%,rgba(69,72,77,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8d8d8', endColorstr='#0045484d',GradientType=0 ); /* IE6-9 */
+}
+
+.content-contact{
+  height: 25%;
+  width: 100%;
+  background: url(http://i1155.photobucket.com/albums/p542/thirteenten/background2_zpswctffmbr.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.contact-link,
+.email_form_ctrl {
+  text-align: center;
+}
+
+.contact-link > a {
+  text-decoration: none;
+}
+
+.contact-link > a:hover {
+  font-size: 1.2em; 
+}
+
+.contact-link > a > i:hover,
+.email_form_ctrl > i:hover {
+  margin-top: 20px;
+  margin-left: -2px;
+  color: #f2f2f2;
+}
+
+
+.contact-link > a > i,
+.email_form_ctrl > i {
+  margin-top: 25px;
+  color: #bfbfbf;
+  font-size: 3em;
+}
+
+#row1 > div > h2 {
+  text-align: right;
+  color: #bfbfbf;
+  font-size: 2.5em;
+}
+
+#row1 {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(51,51,51,.75);
+  top: 50%;
+  margin-top: -40px;
+  padding-bottom: 10px;
+}
+
+/*=============== EMAIL Form Element ==============*/
+
+.email_form_container {
+  margin: 10px 10px 0px 10px;
+}
+
+.email_form {
+  overflow: hidden;
+}
+
+.email_panel {
+  width: 100%;
+  display: none;
+  overflow: hidden;
+  background-color: #262626;
+}
+
+.email_form_ctrl {
+  background-color: #595959;
+  border: none;
+}
+
+.email_form_ctrl > i:hover {
+  font-size: 3.5em;
+  color: #f2f2f2;
+}
+
+.email_form_ctrl:focus {
+  border: none;
+  box-shadow: none;
+  outline: 0 none;
+}
+
+.opened > i {
+  margin-top: 20px;
+  margin-left: -2px;
+  font-size: 3.5em;
+  color: #f2f2f2;
+}
+
+#email {
+  width: 100%;
+}
+
+#emailBody {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.name-field,
+#emailField {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+div > h6 {
+  display: inline-block;
+  color: #b2b2b2;
+}
+
+#answer {
+  display: inline-block;
+  width: 45px;
+}
+
+#send {
+  width: 100%;
+}
+
+/*=============== END EMAIL Form Element ==========*/
+
+#copywrite {
+  opacity: 0.75;
+  color: #333333;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+/*=============== END Main CSS ====================*/
+

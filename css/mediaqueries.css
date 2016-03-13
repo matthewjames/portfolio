@@ -1,0 +1,189 @@
+/*=============== Media Queries ===================*/
+
+/*iPhone Retina Display*/
+@media only screen and (max-width: 320px){
+  /*===== Home =====*/
+  .bg-overlay-home > .container > .row {
+    margin-top: 65%;
+  }
+  
+  div#title > h3{
+    font-size: 16px;
+  }
+  
+  /*===== About =====*/
+  .content-about > .container > .row {
+    margin-top: 15%;
+  }
+  
+  #img > img {
+    height: 175px;
+    width: 175px;
+  }
+  
+  .about > h3{
+    font-size: 13px;
+  }
+  
+  /*===== Portfolio =====*/
+  
+  /*===== Contact =====*/
+  
+  #row1 > div > h2 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  #row2 {
+    margin-bottom: 10px;
+  }
+}
+
+/*XS devices*/
+@media only screen and (max-width: 480px) and (min-width: 321px){
+  /*===== Home =====*/
+  .bg-overlay-home > .container > .row {
+    margin-top: 45%;
+  }
+  
+  div#title > h3{
+    font-size: 18px;
+  }
+  
+  /*===== About =====*/
+  .about-img {
+    height: 175px;
+    width: 175px;
+  }
+  
+  .about > h3{
+    font-size: 16px;
+  }
+  
+  /*===== Portfolio =====*/
+  
+  #portTitle {
+    margin-top: 12.5%;
+  }
+  
+  .p-container > .row > div:nth-child(2) {
+    margin-top: -5px;
+  }
+  
+  /*===== Contact =====*/
+  
+  #row1 > div > h2 {
+    font-size: 1.8em;
+    text-align: center;
+  }
+  
+  #row1 {
+    margin-top: -60px;
+  }
+  
+  #row2 {
+    height: 75px;
+  }
+  
+  #emailBody {
+    height: 75px;
+  }
+  
+  #send {
+    margin-bottom: 10px;
+  }
+}
+
+/*SM devices*/
+@media only screen and (max-width: 768px) and (min-width: 481px){
+  /*===== Home =====*/
+  .bg-overlay-home > .container > .row {
+    margin-top: 30%;
+  }
+  
+  div#title > h3{
+    font-size: 20px;
+  }
+  
+  /*===== About =====*/
+  .about-img {
+    height: 200px;
+    width: 200px;
+  }
+  
+  .about > h3{
+    font-size: 18px;
+  }
+  
+  /*===== Portfolio =====*/
+  
+  #portTitle {
+    margin-top: 5%;
+  }
+  
+  .p-container > .row > div:nth-child(2) {
+    margin-top: -10px;
+  }
+  
+  /*===== Contact =====*/
+  
+  #row1 > div > h2 {
+    text-align: center;
+  }
+  
+  #row2 {
+    height: 75px;
+  }
+  
+  #row1 {
+    margin-top: -60px;
+  }
+  
+  #emailBody {
+    height: 75px;
+  }
+  
+  #send {
+    margin-bottom: 10px;
+  }
+}
+
+/*MD devices*/
+@media only screen and (max-width: 992px) and (min-width: 769px){
+  /*===== Home =====*/
+  
+  /*===== About =====*/
+  .about > h3{
+    
+  }
+  
+  /*===== Portfolio =====*/
+  
+  /*===== Contact =====*/
+  
+  #emailBody {
+    height: 175px;
+  }
+}
+
+/*LG devices*/
+@media only screen and (max-width: 1200px) and (min-width: 993px){
+  /*===== Home =====*/
+  
+  /*===== About =====*/
+  .about > h3{
+    
+  }
+  
+  /*===== Portfolio =====*/
+  
+.p-container > .row:first-child {
+  margin-top: 5%;
+}
+  
+  /*===== Contact =====*/
+  
+  #emailBody {
+    height: 175px;
+  }
+}
